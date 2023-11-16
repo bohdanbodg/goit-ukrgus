@@ -8,6 +8,10 @@ https://www.figma.com/file/jHUWpt6HKNWjjfSKF0xigw/GoIT-Test-drive-Concept?type=d
 
 https://github.com/bohdanbodg/goit-ukrgus
 
-## Web page
+## Web page (Vercel)
 
 https://goit-ukrgus.vercel.app
+
+## Web page (Netlify)
+
+https://goit-ukrgus.netlify.app
