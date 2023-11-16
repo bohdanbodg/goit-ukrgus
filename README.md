@@ -1,1 +1,1 @@
-# goit-ukrgus
+# GoIT Укргусь
