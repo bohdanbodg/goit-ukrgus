@@ -1,0 +1,236 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #1b1d1f;
+  background: #fff;
+}
+
+.main {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.submain {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.accent {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.subaccent {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.blue-text {
+  color: #005bbb;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.black-text {
+  color: #1b1d1f;
+}
+
+.yellow-text {
+  color: #ffd500;
+}
+
+.blue-background {
+  background-color: #005bbb;
+}
+
+.white-background {
+  background-color: #fff;
+}
+
+.black-background {
+  background-color: #1b1d1f;
+}
+
+.yellow-background {
+  background-color: #ffd500;
+}
+
+.wrapper {
+  width: auto;
+  margin-left: 95px;
+  margin-right: 95px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+.first-page,
+.form-page {
+  background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
+}
+
+.first-page-content {
+  box-sizing: border-box;
+  padding: 60px;
+  border-radius: 40px;
+  background: #fff;
+  width: 573px;
+  height: auto;
+  box-shadow: 8px 8px 20px 0px rgb(0 0 0 / 2%);
+}
+
+.first-page-content .submain {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.first-page-content .accent {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.first-page-content .main {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.info-page {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.info-page-title-block {
+  text-align: center;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.info-page-title-block .subaccent {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.info-page-title-block .main {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.info-page-fact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fact-block {
+  text-align: center;
+  width: 374px;
+}
+
+.half-center-text {
+  text-align: center;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.main-action {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #005bbb;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.main-action:hover {
+  background: #3374ba;
+  cursor: pointer;
+}
+
+.main-action:active {
+  background: #004a99;
+}
+
+.form-page-form {
+  text-align: center;
+  margin: 80px auto 80px auto;
+  box-sizing: border-box;
+  padding: 32px 60px 60px 60px;
+  border-radius: 40px;
+  background: #fff;
+  width: 573px;
+  height: auto;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 2%);
+}
+
+.form-page-form .header {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.form-page-form .main {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.input-text {
+  margin-top: 24px;
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.input-text label {
+  text-align: left;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.input-text input {
+  border-radius: 8px;
+  border: 1px solid #ffd500;
+  background: #fff;
+  height: calc(60px - 16px * 2);
+  padding: 16px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.margin-b-48 {
+  margin-bottom: 48px;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
