@@ -90,6 +90,10 @@ body {
   background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
 }
 
+.first-page .wrapper {
+  margin-right: 0px;
+}
+
 .first-page-content {
   box-sizing: border-box;
   padding: 60px;
